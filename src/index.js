@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-var contenedor = document.querySelector('.contenedor');
+import Cuadros from './App';
+
+
+var externo = document.querySelector('.externo');
 
 ReactDOM.render(
-  
-    <App />,
-    contenedor
-  
-  
+   <Cuadros />,
+    externo
 );
 
 
